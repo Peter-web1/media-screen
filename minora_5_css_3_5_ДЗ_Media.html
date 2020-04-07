@@ -1,0 +1,184 @@
+
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Responsive layout</title>
+	<meta charset="utf-8" />
+	<style>
+
+		article{
+			font-family: sans-serif;
+			padding: 15px;
+			border: 2px solid #ddd;
+			border-radius: 15px;
+			float: left;
+			width: 15%;
+			margin: 15px;
+		}
+	
+		h1 {
+			text-align: center;
+			text-transform: uppercase;
+		}
+	
+		img{
+			display: block;
+			width: 80%;
+			max-width: 480px;
+			margin: 10px auto;
+			padding: 10px;
+			background-color: #f7f7ff;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		
+		p {
+			text-align: justify;
+		}
+		/*@media screen and (max-width:1000px) {
+			article{
+			font-family: sans-serif;
+			padding: 15px;
+			border: 2px solid #ddd;
+			border-radius: 15px;
+			float: left;
+			width: 20%;
+			}
+		}
+
+		@media screen and (max-width:800px) {
+			article{
+			font-family: sans-serif;
+			padding: 15px;
+			border: 2px solid #ddd;
+			border-radius: 15px;
+			float: left;
+			width: 25%;
+			}
+		}
+
+		@media screen and (max-width:600px) {
+			article{
+			font-family: sans-serif;
+			padding: 15px;
+			border: 2px solid #ddd;
+			border-radius: 15px;
+			float: left;
+			width: 33%;
+			}
+		}
+
+		@media screen and (max-width:400px) {
+			article{
+			font-family: sans-serif;
+			padding: 15px;
+			border: 2px solid #ddd;
+			border-radius: 15px;
+			float: left;
+			width: 100%;
+			}
+		}
+
+		@media screen and (max-width:300px) {
+			article{
+			font-family: sans-serif;
+			padding: 15px;
+			border: 2px solid #ddd;
+			border-radius: 15px;
+			float: left;
+			width: 100%;
+			}
+		}*/
+
+		@media (max-width:400px) {
+			article {
+				width: 100%;
+			}
+		}
+
+		@media (max-width:600px) and (min-width: 401px) {
+			article {
+				width: 50%;
+			}
+		}
+
+		@media (max-width:800px) and (min-width: 601px) {
+			article {
+				width: 33.3%;
+			}
+		}
+
+		@media (max-width:1000px) and (min-width: 801px) {
+			article {
+				width: 25%;
+			}
+		}
+
+		@media (max-width:1001px) {
+			article {
+				width: 20%;
+			}
+		}
+
+		
+		
+	</style>
+</head>
+<body>
+	<article>
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+		<img src="https://via.placeholder.com/480x270/">
+		<p>Fusce posuere, turpis eget blandit laoreet, nisl ipsum consequat leo, eget imperdiet risus tortor at metus. In hac habitasse platea dictumst. Fusce ac tempor arcu. Donec ut lacinia tellus, ut venenatis sem. Nullam id mollis arcu. Praesent viverra, arcu id congue ultricies, quam est mollis purus, at finibus massa diam vitae ipsum. Nulla facilisi. Integer vel volutpat libero, at semper purus. Nam ultrices nunc quis faucibus semper. Etiam faucibus, velit at malesuada efficitur, nibh eros cursus nisi, volutpat imperdiet nisi augue et turpis. Donec ac scelerisque nulla. Integer feugiat orci at felis tempus dapibus. Maecenas sit amet suscipit erat. Nam quis felis sapien. Mauris a mauris lacinia libero egestas imperdiet ut in augue.</p>
+	</article>
+	<article>
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+		<img src="https://via.placeholder.com/480x270/">
+		<p>Fusce posuere, turpis eget blandit laoreet, nisl ipsum consequat leo, eget imperdiet risus tortor at metus. In hac habitasse platea dictumst. Fusce ac tempor arcu. Donec ut lacinia tellus, ut venenatis sem. Nullam id mollis arcu. Praesent viverra, arcu id congue ultricies, quam est mollis purus, at finibus massa diam vitae ipsum. Nulla facilisi. Integer vel volutpat libero, at semper purus. Nam ultrices nunc quis faucibus semper. Etiam faucibus, velit at malesuada efficitur, nibh eros cursus nisi, volutpat imperdiet nisi augue et turpis. Donec ac scelerisque nulla. Integer feugiat orci at felis tempus dapibus. Maecenas sit amet suscipit erat. Nam quis felis sapien. Mauris a mauris lacinia libero egestas imperdiet ut in augue.</p>
+	</article><article>
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+		<img src="https://via.placeholder.com/480x270/">
+		<p>Fusce posuere, turpis eget blandit laoreet, nisl ipsum consequat leo, eget imperdiet risus tortor at metus. In hac habitasse platea dictumst. Fusce ac tempor arcu. Donec ut lacinia tellus, ut venenatis sem. Nullam id mollis arcu. Praesent viverra, arcu id congue ultricies, quam est mollis purus, at finibus massa diam vitae ipsum. Nulla facilisi. Integer vel volutpat libero, at semper purus. Nam ultrices nunc quis faucibus semper. Etiam faucibus, velit at malesuada efficitur, nibh eros cursus nisi, volutpat imperdiet nisi augue et turpis. Donec ac scelerisque nulla. Integer feugiat orci at felis tempus dapibus. Maecenas sit amet suscipit erat. Nam quis felis sapien. Mauris a mauris lacinia libero egestas imperdiet ut in augue.</p>
+	</article>
+	<article>
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+		<img src="https://via.placeholder.com/480x270/">
+		<p>Fusce posuere, turpis eget blandit laoreet, nisl ipsum consequat leo, eget imperdiet risus tortor at metus. In hac habitasse platea dictumst. Fusce ac tempor arcu. Donec ut lacinia tellus, ut venenatis sem. Nullam id mollis arcu. Praesent viverra, arcu id congue ultricies, quam est mollis purus, at finibus massa diam vitae ipsum. Nulla facilisi. Integer vel volutpat libero, at semper purus. Nam ultrices nunc quis faucibus semper. Etiam faucibus, velit at malesuada efficitur, nibh eros cursus nisi, volutpat imperdiet nisi augue et turpis. Donec ac scelerisque nulla. Integer feugiat orci at felis tempus dapibus. Maecenas sit amet suscipit erat. Nam quis felis sapien. Mauris a mauris lacinia libero egestas imperdiet ut in augue.</p>
+	</article><article>
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+		<img src="https://via.placeholder.com/480x270/">
+		<p>Fusce posuere, turpis eget blandit laoreet, nisl ipsum consequat leo, eget imperdiet risus tortor at metus. In hac habitasse platea dictumst. Fusce ac tempor arcu. Donec ut lacinia tellus, ut venenatis sem. Nullam id mollis arcu. Praesent viverra, arcu id congue ultricies, quam est mollis purus, at finibus massa diam vitae ipsum. Nulla facilisi. Integer vel volutpat libero, at semper purus. Nam ultrices nunc quis faucibus semper. Etiam faucibus, velit at malesuada efficitur, nibh eros cursus nisi, volutpat imperdiet nisi augue et turpis. Donec ac scelerisque nulla. Integer feugiat orci at felis tempus dapibus. Maecenas sit amet suscipit erat. Nam quis felis sapien. Mauris a mauris lacinia libero egestas imperdiet ut in augue.</p>
+	</article>
+	<article>
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+		<img src="https://via.placeholder.com/480x270/">
+		<p>Fusce posuere, turpis eget blandit laoreet, nisl ipsum consequat leo, eget imperdiet risus tortor at metus. In hac habitasse platea dictumst. Fusce ac tempor arcu. Donec ut lacinia tellus, ut venenatis sem. Nullam id mollis arcu. Praesent viverra, arcu id congue ultricies, quam est mollis purus, at finibus massa diam vitae ipsum. Nulla facilisi. Integer vel volutpat libero, at semper purus. Nam ultrices nunc quis faucibus semper. Etiam faucibus, velit at malesuada efficitur, nibh eros cursus nisi, volutpat imperdiet nisi augue et turpis. Donec ac scelerisque nulla. Integer feugiat orci at felis tempus dapibus. Maecenas sit amet suscipit erat. Nam quis felis sapien. Mauris a mauris lacinia libero egestas imperdiet ut in augue.</p>
+	</article><article>
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+		<img src="https://via.placeholder.com/480x270/">
+		<p>Fusce posuere, turpis eget blandit laoreet, nisl ipsum consequat leo, eget imperdiet risus tortor at metus. In hac habitasse platea dictumst. Fusce ac tempor arcu. Donec ut lacinia tellus, ut venenatis sem. Nullam id mollis arcu. Praesent viverra, arcu id congue ultricies, quam est mollis purus, at finibus massa diam vitae ipsum. Nulla facilisi. Integer vel volutpat libero, at semper purus. Nam ultrices nunc quis faucibus semper. Etiam faucibus, velit at malesuada efficitur, nibh eros cursus nisi, volutpat imperdiet nisi augue et turpis. Donec ac scelerisque nulla. Integer feugiat orci at felis tempus dapibus. Maecenas sit amet suscipit erat. Nam quis felis sapien. Mauris a mauris lacinia libero egestas imperdiet ut in augue.</p>
+	</article>
+	<article>
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+		<img src="https://via.placeholder.com/480x270/">
+		<p>Fusce posuere, turpis eget blandit laoreet, nisl ipsum consequat leo, eget imperdiet risus tortor at metus. In hac habitasse platea dictumst. Fusce ac tempor arcu. Donec ut lacinia tellus, ut venenatis sem. Nullam id mollis arcu. Praesent viverra, arcu id congue ultricies, quam est mollis purus, at finibus massa diam vitae ipsum. Nulla facilisi. Integer vel volutpat libero, at semper purus. Nam ultrices nunc quis faucibus semper. Etiam faucibus, velit at malesuada efficitur, nibh eros cursus nisi, volutpat imperdiet nisi augue et turpis. Donec ac scelerisque nulla. Integer feugiat orci at felis tempus dapibus. Maecenas sit amet suscipit erat. Nam quis felis sapien. Mauris a mauris lacinia libero egestas imperdiet ut in augue.</p>
+	</article><article>
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+		<img src="https://via.placeholder.com/480x270/">
+		<p>Fusce posuere, turpis eget blandit laoreet, nisl ipsum consequat leo, eget imperdiet risus tortor at metus. In hac habitasse platea dictumst. Fusce ac tempor arcu. Donec ut lacinia tellus, ut venenatis sem. Nullam id mollis arcu. Praesent viverra, arcu id congue ultricies, quam est mollis purus, at finibus massa diam vitae ipsum. Nulla facilisi. Integer vel volutpat libero, at semper purus. Nam ultrices nunc quis faucibus semper. Etiam faucibus, velit at malesuada efficitur, nibh eros cursus nisi, volutpat imperdiet nisi augue et turpis. Donec ac scelerisque nulla. Integer feugiat orci at felis tempus dapibus. Maecenas sit amet suscipit erat. Nam quis felis sapien. Mauris a mauris lacinia libero egestas imperdiet ut in augue.</p>
+	</article>
+	<article>
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+		<img src="https://via.placeholder.com/480x270/">
+		<p>Fusce posuere, turpis eget blandit laoreet, nisl ipsum consequat leo, eget imperdiet risus tortor at metus. In hac habitasse platea dictumst. Fusce ac tempor arcu. Donec ut lacinia tellus, ut venenatis sem. Nullam id mollis arcu. Praesent viverra, arcu id congue ultricies, quam est mollis purus, at finibus massa diam vitae ipsum. Nulla facilisi. Integer vel volutpat libero, at semper purus. Nam ultrices nunc quis faucibus semper. Etiam faucibus, velit at malesuada efficitur, nibh eros cursus nisi, volutpat imperdiet nisi augue et turpis. Donec ac scelerisque nulla. Integer feugiat orci at felis tempus dapibus. Maecenas sit amet suscipit erat. Nam quis felis sapien. Mauris a mauris lacinia libero egestas imperdiet ut in augue.</p>
+	</article><article>
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+		<img src="https://via.placeholder.com/480x270/">
+		<p>Fusce posuere, turpis eget blandit laoreet, nisl ipsum consequat leo, eget imperdiet risus tortor at metus. In hac habitasse platea dictumst. Fusce ac tempor arcu. Donec ut lacinia tellus, ut venenatis sem. Nullam id mollis arcu. Praesent viverra, arcu id congue ultricies, quam est mollis purus, at finibus massa diam vitae ipsum. Nulla facilisi. Integer vel volutpat libero, at semper purus. Nam ultrices nunc quis faucibus semper. Etiam faucibus, velit at malesuada efficitur, nibh eros cursus nisi, volutpat imperdiet nisi augue et turpis. Donec ac scelerisque nulla. Integer feugiat orci at felis tempus dapibus. Maecenas sit amet suscipit erat. Nam quis felis sapien. Mauris a mauris lacinia libero egestas imperdiet ut in augue.</p>
+	</article>
+	<article>
+		<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+		<img src="https://via.placeholder.com/480x270/">
+		<p>Fusce posuere, turpis eget blandit laoreet, nisl ipsum consequat leo, eget imperdiet risus tortor at metus. In hac habitasse platea dictumst. Fusce ac tempor arcu. Donec ut lacinia tellus, ut venenatis sem. Nullam id mollis arcu. Praesent viverra, arcu id congue ultricies, quam est mollis purus, at finibus massa diam vitae ipsum. Nulla facilisi. Integer vel volutpat libero, at semper purus. Nam ultrices nunc quis faucibus semper. Etiam faucibus, velit at malesuada efficitur, nibh eros cursus nisi, volutpat imperdiet nisi augue et turpis. Donec ac scelerisque nulla. Integer feugiat orci at felis tempus dapibus. Maecenas sit amet suscipit erat. Nam quis felis sapien. Mauris a mauris lacinia libero egestas imperdiet ut in augue.</p>
+	</article>
+</body>
+</html>
